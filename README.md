@@ -2,7 +2,7 @@
 
 ## In there we can create the cluster and also delete the cluster and we can also deploy the project
 
-if yhou want to create the clujster then you have to give just this command 
+if you want to create the cluster then you have to give just this command 
 ```
 sh createCluster.sh
 ```
