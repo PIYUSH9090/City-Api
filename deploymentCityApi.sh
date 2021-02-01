@@ -1,6 +1,12 @@
+echo >&2 '
+***************
+*** Lets create a deploymentCityApi.sh ***
+***************
+'
+ >&2
+
 # We are creating shell script for deployment of this city_api project 
-# TODO: gcloud container clusters create $clusterName --num-nodes=2
-# TODO: gcloud credentials and initialize to project
+
 echo "First we need to do the docker login"
 docker login
 docker ps
@@ -31,3 +37,9 @@ kubectl apply -f sa-logic.yaml --record
 kubectl get services
 kubectl get pods
 kubectl get service api-service
+
+
+ echo >&2 '
+************
+*** DONE deploymentCityApi.sh ***
+************'
