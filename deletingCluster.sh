@@ -9,14 +9,7 @@ echo "Deleting a gcloud cluster"
 
 CLUSTERNAME=cityapi 
 
-kubectl config delete-cluster $CLUSTERNAME
-
-kubectl config delete-context $CLUSTERNAME
-
 gcloud container clusters delete $CLUSTERNAME --zone us-east1-b
-
-echo "Give permission to delete"
-y
 
 
  echo >&2 '

@@ -9,7 +9,7 @@ sh createCluster.sh
 
 if you want to deploy this project in the kubernates with gcloud you can gibve this command 
 ```
-sh deplopymentCityApi.sh
+sh deploymentCityApi.sh
 ```
 
 if you want to delete the cluster then you can use this command 
